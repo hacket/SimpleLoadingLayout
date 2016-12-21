@@ -12,34 +12,70 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-            <Button
+            <TextView
                     android:text="Success"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/white"
+                    android:background="@android:color/holo_blue_dark"
                     android:id="@+id/btn_success"/>
-            <Button
+            <TextView
                     android:text="Empty"
+                    android:textSize="10sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/white"
+                    android:background="@android:color/holo_blue_dark"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/btn_empty"/>
-            <Button
+            <TextView
                     android:text="Error"
+                    android:textSize="10sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/white"
+                    android:background="@android:color/holo_blue_dark"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/btn_error"/>
-            <Button
+            <TextView
                     android:text="No_Network"
+                    android:textSize="10sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/white"
+                    android:background="@android:color/holo_blue_dark"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/btn_no_network"/>
-            <Button
+            <TextView
                     android:text="Loading"
+                    android:textSize="10sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/white"
+                    android:background="@android:color/holo_blue_dark"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/btn_loading"/>
 
-            <Button
+            <TextView
                     android:text="Requesting"
+                    android:textSize="10sp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/white"
+                    android:background="@android:color/holo_blue_dark"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/btn_requesting"/>

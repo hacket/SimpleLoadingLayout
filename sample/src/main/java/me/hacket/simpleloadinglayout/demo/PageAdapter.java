@@ -37,7 +37,7 @@ public class PageAdapter extends RecyclerView.Adapter<PageAdapter.MyViewHolder> 
 
         View itemView = holder.itemView;
         boolean b = position % 2 == 0;
-        itemView.setBackgroundColor(b ? Color.GRAY : Color.YELLOW);
+        itemView.setBackgroundColor(b ? Color.LTGRAY : Color.WHITE);
 
         // 绑定数据给view
         holder.tv.setText(mDatas.get(position));

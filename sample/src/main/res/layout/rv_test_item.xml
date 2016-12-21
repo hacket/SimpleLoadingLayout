@@ -9,7 +9,7 @@
     <TextView
             android:id="@+id/num"
             android:textSize="20sp"
-            android:textColor="#f00"
+            android:textColor="@android:color/black"
             android:layout_gravity="center_horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
