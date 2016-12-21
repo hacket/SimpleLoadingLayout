@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SimpleLoadingLayout">
+
+        <attr name="ll_isFirstVisible" format="boolean"></attr>
+
+        <!-- 空布局资源id -->
+        <attr name="ll_empty_view" format="reference"/>
+        <!-- 加载中布局资源id -->
+        <attr name="ll_loading_view" format="reference"/>
+        <!-- 错误布局资源id -->
+        <attr name="ll_error_view" format="reference"/>
+        <!-- 没有网络布局资源id -->
+        <attr name="ll_no_network_view" format="reference"/>
+
+    </declare-styleable>
+
+</resources>
