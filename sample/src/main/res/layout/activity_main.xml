@@ -1,18 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<android.support.design.widget.CoordinatorLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/activity_main"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/root_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        tools:context="me.hacket.simpleloadinglayout.MainActivity">
+        android:layout_height="match_parent">
 
-    <TextView
+    <android.support.design.widget.AppBarLayout
+            android:id="@+id/abl_app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:background="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|enterAlwaysCollapsed"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+        </android.support.v7.widget.Toolbar>
+
+        <android.support.design.widget.TabLayout
+                android:id="@+id/tl_tablyout"
+                app:tabMode="scrollable"
+                app:tabIndicatorColor="#f00"
+                app:tabBackground="@null"
+                app:tabPadding="10dp"
+                app:tabIndicatorHeight="3dp"
+                app:tabGravity="fill"
+                app:tabTextColor="@android:color/black"
+                app:tabContentStart="10dp"
+                app:tabSelectedTextColor="@android:color/holo_blue_dark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        </android.support.design.widget.TabLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+            android:id="@+id/vp_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_btn"
+            android:layout_gravity="bottom|end"
+            android:src="@drawable/ic_back"
+            android:layout_margin="15dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello World!"/>
-</RelativeLayout>
+            android:layout_height="wrap_content"/>
+
+</android.support.design.widget.CoordinatorLayout>

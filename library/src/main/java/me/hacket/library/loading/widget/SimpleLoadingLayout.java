@@ -557,14 +557,14 @@ public class SimpleLoadingLayout extends FrameLayout implements ILoadingStatus {
     }
 
     private FrameLayout.LayoutParams buildLoadingLayoutParams(int topHeight, int loadingViewHeight) {
-        LayoutParams params = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT, Gravity.CENTER_HORIZONTAL | Gravity.TOP);
+        LayoutParams params = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT, Gravity.CENTER_HORIZONTAL | Gravity.TOP);
         int loadingViewTopMargin = LoadingUtils.getScreenHeight(mContext) / 2 - (topHeight + loadingViewHeight / 2);
         params.topMargin = loadingViewTopMargin;
         return params;
     }
 
     private FrameLayout.LayoutParams buildCenterLayoutParams() {
-        LayoutParams params = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT, Gravity.CENTER);
+        LayoutParams params = new LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT, Gravity.CENTER);
         return params;
     }
 

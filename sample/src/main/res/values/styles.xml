@@ -1,11 +1,36 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="AppTheme.Base">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- 使用 API Level 22 編譯的話，要拿掉前綴字 -->
+        <!--<item name="android:windowNoTitle">true</item>-->
+
+        <!--App bar 底色 Actionbar color -->
+        <item name="colorPrimary">@color/material_blue_500</item>
+
+        <!--状态栏底色-->
+        <item name="colorPrimaryDark">@color/material_blue_700</item>
+
+        <!--对应EditText编辑时、RadioButton选中、CheckBox等选中时的颜色。-->
+        <!--<item name="colorAccent">@color/material_green_A200</item>-->
+
+        <item name="colorControlHighlight">#00F</item>
+
+        <!--Window color 窗体背景颜色-->
+        <item name="android:windowBackground">@color/dim_foreground_material_dark</item>
+
     </style>
 
 </resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <HorizontalScrollView android:layout_width="match_parent"
+                          android:layout_height="wrap_content">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+            <Button
+                    android:text="Success"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_success"/>
+            <Button
+                    android:text="Empty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_empty"/>
+            <Button
+                    android:text="Error"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_error"/>
+            <Button
+                    android:text="No_Network"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_no_network"/>
+            <Button
+                    android:text="Loading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_loading"/>
+
+            <Button
+                    android:text="Requesting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_requesting"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <me.hacket.library.loading.widget.SimpleLoadingLayout
+            android:id="@+id/loading_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_page"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+    </me.hacket.library.loading.widget.SimpleLoadingLayout>
+
+</LinearLayout>
