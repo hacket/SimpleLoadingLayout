@@ -9,7 +9,7 @@
 
 ### Gradle
 
-1. 添加到根目录的build.gradle
+* 添加到根目录的build.gradle
 ```groovy
 allprojects {
     repositories {
@@ -19,7 +19,7 @@ allprojects {
 }
 ```
 
-2. 添加到dependencies
+* 添加到dependencies
 ```groovy
 dependencies {
     compile 'com.github.hacket:SimpleLoadingLayout:1.0.0'
