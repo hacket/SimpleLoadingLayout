@@ -12,70 +12,63 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-            <TextView
+            <Button
                     android:text="Success"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="10sp"
                     android:gravity="center"
-                    android:padding="10dp"
-                    android:layout_margin="5dp"
-                    android:textColor="@android:color/white"
-                    android:background="@android:color/holo_blue_dark"
+                    android:padding="0dp"
+                    android:layout_margin="0dp"
+                    android:textColor="@android:color/black"
                     android:id="@+id/btn_success"/>
-            <TextView
+            <Button
                     android:text="Empty"
                     android:textSize="10sp"
                     android:gravity="center"
-                    android:padding="10dp"
-                    android:layout_margin="5dp"
-                    android:textColor="@android:color/white"
-                    android:background="@android:color/holo_blue_dark"
+                    android:padding="0dp"
+                    android:layout_margin="0dp"
+                    android:textColor="@android:color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/btn_empty"/>
-            <TextView
+            <Button
                     android:text="Error"
                     android:textSize="10sp"
                     android:gravity="center"
-                    android:padding="10dp"
-                    android:layout_margin="5dp"
-                    android:textColor="@android:color/white"
-                    android:background="@android:color/holo_blue_dark"
+                    android:padding="0dp"
+                    android:layout_margin="0dp"
+                    android:textColor="@android:color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/btn_error"/>
-            <TextView
+            <Button
                     android:text="No_Network"
                     android:textSize="10sp"
                     android:gravity="center"
-                    android:padding="10dp"
-                    android:layout_margin="5dp"
-                    android:textColor="@android:color/white"
-                    android:background="@android:color/holo_blue_dark"
+                    android:padding="0dp"
+                    android:layout_margin="0dp"
+                    android:textColor="@android:color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/btn_no_network"/>
-            <TextView
+            <Button
                     android:text="Loading"
                     android:textSize="10sp"
                     android:gravity="center"
-                    android:padding="10dp"
-                    android:layout_margin="5dp"
-                    android:textColor="@android:color/white"
-                    android:background="@android:color/holo_blue_dark"
+                    android:padding="0dp"
+                    android:layout_margin="0dp"
+                    android:textColor="@android:color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/btn_loading"/>
-
-            <TextView
+            <Button
                     android:text="Requesting"
                     android:textSize="10sp"
                     android:gravity="center"
-                    android:padding="10dp"
-                    android:layout_margin="5dp"
-                    android:textColor="@android:color/white"
-                    android:background="@android:color/holo_blue_dark"
+                    android:padding="0dp"
+                    android:layout_margin="0dp"
+                    android:textColor="@android:color/black"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/btn_requesting"/>
