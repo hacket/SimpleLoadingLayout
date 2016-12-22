@@ -360,7 +360,7 @@ public class SimpleLoadingLayout extends FrameLayout implements ILoadingStatus {
     /**
      * 设置Error状态提示文本，仅对当前所在的地方有效
      */
-    public SimpleLoadingLayout setTvErrorText(String text) {
+    public SimpleLoadingLayout setErrorText(String text) {
         mTvErrorText.setText(text);
         return this;
     }

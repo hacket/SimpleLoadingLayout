@@ -83,6 +83,37 @@ public class PageFragment extends Fragment implements PageAdapter.OnItemClickLis
         PageAdapter mAdapter = new PageAdapter(getActivity(), list);
         mAdapter.setOnItemClickListener(this);
         mRecyclerView.setAdapter(mAdapter);
+
+//        mLoading.setLoadingViewLayout(R.layout.loading_layout_flower)
+//                .setEmptyText("暂无报告数据")
+//                .setErrorText("出错了")
+//                .setNoNetworkText("没有网络")
+//                .setErrorImage(R.mipmap.ic_launcher)
+//                .setErrorTextSize(18)
+//                .setReloadButtonText("点我重新加载");
+
+//        mLoading.setOnReloadListener(new SimpleLoadingLayout.OnReloadListener() {
+//            @Override
+//            public void onReload(View v, @SimpleLoadingLayout.ReloadBtnType int reloadBtnType) {
+//                switch (reloadBtnType) {
+//                    case SimpleLoadingLayout.ReloadBtnType.RELOAD_BTN_TYPE_ERROR:
+//                        // TODO: 2016/12/22
+//                        break;
+//                    case SimpleLoadingLayout.ReloadBtnType.RELOAD_BTN_TYPE_NO_NETWORK:
+//                        // TODO: 2016/12/22
+//                        break;
+//                    default:
+//                        break;
+//                }
+//            }
+//        });
+
+//        mLoading.onSucceed();
+//        mLoading.onNoNetworkError();
+//        mLoading.onEmpty();
+//        mLoading.onError();
+//        mLoading.onLoading();
+//        mLoading.onRequesting();
     }
 
     private void setListeners() {
