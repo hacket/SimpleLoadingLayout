@@ -10,10 +10,6 @@
 ### Gradle
 
 1. 添加到根目录的build.gradle
-<<<<<<< 71ac688f28963de1045677f00b3694294d324f03
-
-=======
->>>>>>> update README
 ```groovy
 allprojects {
     repositories {
@@ -24,10 +20,6 @@ allprojects {
 ```
 
 2. 添加到dependencies
-<<<<<<< 71ac688f28963de1045677f00b3694294d324f03
-
-=======
->>>>>>> update README
 ```groovy
 dependencies {
     compile 'com.github.hacket:SimpleLoadingLayout:1.0.0'
@@ -36,11 +28,7 @@ dependencies {
 
 ### Usage
 
-<<<<<<< 71ac688f28963de1045677f00b3694294d324f03
-#### 支持全局配置，在Application初始化，应用到所有使用SimpleLoadingLayout：
-=======
 #### 支持全局配置，在Application初始化，应用到所有使用`SimpleLoadingLayout`：
->>>>>>> update README
 
 ```java
 LoadingConfig.getInstance(this)
@@ -55,11 +43,7 @@ LoadingConfig.getInstance(this)
 
 #### 局部设置，仅对当前界面有效
 
-<<<<<<< 71ac688f28963de1045677f00b3694294d324f03
-* xml配置，支持loadingView,emptyView,errorView,noNetworkView配置
-=======
 * xml配置，支持`loadingView`、`emptyView`、`errorView`、`noNetworkView`配置
->>>>>>> update README
 ```xml
 app:ll_empty_view="@layout/xxx"
 app:ll_error_view="@layout/xxx"
@@ -67,11 +51,7 @@ app:ll_no_network_view="@layout/xxx"
 app:ll_loading_view="@layout/xxx"
 ```
 
-<<<<<<< 71ac688f28963de1045677f00b3694294d324f03
-* 代码
-=======
 * Java代码配置
->>>>>>> update README
 ```java
 mLoading.setLoadingViewLayout(R.layout.loading_layout_flower)
         .setEmptyText("暂无报告数据")
@@ -96,26 +76,15 @@ mLoading.setLoadingViewLayout(R.layout.loading_layout_flower)
 </me.hacket.library.loading.widget.SimpleLoadingLayout>
 ```
 
-<<<<<<< 71ac688f28963de1045677f00b3694294d324f03
-**Note:**SimpleLoadingLayout只能添加一个子View
-
-#### 第一次加载是否显示SucceedView
-默认ll_isFirstVisible为false，所有状态的view都隐藏掉，界面会出现白屏；设置为true会默认加载显示succeedView。
-=======
 **Note:** `SimpleLoadingLayout`只能添加一个子View
 
 #### 第一次加载是否显示SucceedView
 默认`ll_isFirstVisible`为false，所有状态的view都隐藏掉，界面会出现白屏；设置为true会默认加载显示succeedView。
->>>>>>> update README
 ```xml
 app:ll_isFirstVisible="true"
 ```
 
-<<<<<<< 71ac688f28963de1045677f00b3694294d324f03
-#### errorView，noNetworkView的默认样式支持ReloadListener监听，有一个`@SimpleLoadingLayout.ReloadBtnType`注解支持区分
-=======
 #### 默认样式的errorView，noNetworkView支持`OnReloadListener`监听，有一个`@SimpleLoadingLayout.ReloadBtnType`注解支持区分
->>>>>>> update README
 ```java
 mLoading.setOnReloadListener(new SimpleLoadingLayout.OnReloadListener() {
     @Override
@@ -143,19 +112,12 @@ mLoading.onError();
 mLoading.onLoading();
 mLoading.onRequesting();
 ```
-<<<<<<< 71ac688f28963de1045677f00b3694294d324f03
-**Note: ** `onRequesting()`和`onLoading()`区别是，Loading状态看不到succeed的View，Requesting状态可以看到succeed的View；`onLoading()`一般用于第一次加载数据用，`onRequesting()`用于界面有数据的时候发送请求用。
-=======
 **Note:**  `onRequesting()`和`onLoading()`区别是，Loading状态看不到succeed的View，Requesting状态可以看到succeed的View；`onLoading()`一般用于第一次加载数据用，`onRequesting()`用于界面有数据的时候发送请求用。
->>>>>>> update README
 
 ### Thanks
 
 [LoadingLayoutDemo](https://github.com/weavey/LoadingLayoutDemo "https://github.com/weavey/LoadingLayoutDemo")
-<<<<<<< 71ac688f28963de1045677f00b3694294d324f03
-=======
 
->>>>>>> update README
 [MaterialPageStateLayout](https://github.com/Syehunter/MaterialPageStateLayout "https://github.com/Syehunter/MaterialPageStateLayout")
 
 ### License
