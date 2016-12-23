@@ -241,7 +241,8 @@ public class SimpleLoadingLayout extends FrameLayout implements ILoadingStatus {
 
         addAllViews();
 
-        if (!isFirstVisible) {
+        boolean inEditMode = isInEditMode();
+        if (!isFirstVisible && !inEditMode) {
             onReset();
         } else {
             onSucceed();
