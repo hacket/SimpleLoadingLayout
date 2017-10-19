@@ -1,4 +1,6 @@
-###  SimpleLoadingLayout
+###  SimpleLoadingLayout 
+
+[![Build Status](https://www.travis-ci.org/hacket/SimpleLoadingLayout.svg?branch=master)](https://github.com/hacket/SimpleLoadingLayout)
 
 ------
 
