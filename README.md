@@ -1,8 +1,6 @@
-###  SimpleLoadingLayout 
+#  SimpleLoadingLayout 
 
 [![Build Status](https://www.travis-ci.org/hacket/SimpleLoadingLayout.svg?branch=master)](https://github.com/hacket/SimpleLoadingLayout)
-
-------
 
 简单的页面多状态切换，支持`Empty`、`Error`、`NoNetwork`、`Requesting`、`Loading`及`Succeed`状态的切换
 
