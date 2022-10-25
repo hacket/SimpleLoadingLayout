@@ -114,12 +114,6 @@ mLoading.onRequesting();
 ```
 **Note:**  `onRequesting()`和`onLoading()`区别是，Loading状态看不到succeed的View，Requesting状态可以看到succeed的View；`onLoading()`一般用于第一次加载数据用，`onRequesting()`用于界面有数据的时候发送请求用。
 
-### Thanks
-
-[LoadingLayoutDemo](https://github.com/weavey/LoadingLayoutDemo "https://github.com/weavey/LoadingLayoutDemo")
-
-[MaterialPageStateLayout](https://github.com/Syehunter/MaterialPageStateLayout "https://github.com/Syehunter/MaterialPageStateLayout")
-
 ### License
 
 ```
